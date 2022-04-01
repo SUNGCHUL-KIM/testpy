@@ -1,0 +1,55 @@
+# 틀린단어 찾아 고치기 게임
+
+w1='sward 칼'
+w2='sneke 뱀'
+w3='elkphant 코끼리'
+
+data=0
+tata=0
+
+
+print(("틀린 곳을 찾아서 철자만 입력하세요"
+      "(틀린 부분을 알고 있으니 철자만 입력해주세요~)"))
+print(w1)
+c=input('>>')
+if c=='o' :
+    new_w1=w1[:2]+'o'+w1[3]+w1[4]
+    print(new_w1+'정답입니다~*^^*')
+    data=data+1
+    
+else :
+    print('오답입니다ㅠㅠ')
+    tata=tata+1
+
+
+print(("틀린 곳을 찾아서 철자만 입력하세요"
+      "(틀린 부분을 알고 있으니 철자만 입력해주세요~)"))
+print(w2)
+c=input('>>')
+if c=='a' :
+    new_w2=w2[:2]+'a'+w2[3]+w2[4]
+    print(new_w2+'정답입니다~*^^*')
+    data=data+1
+    
+else :
+    print('오답입니다ㅠㅠ')
+    tata=tata+1
+
+print(("틀린 곳을 찾아서 철자만 입력하세요"
+      "(틀린 부분을 알고 있으니 철자만 입력해주세요~)"))
+print(w3)
+c=input('>>')
+if c=='e' :
+    new_w3=w3[:2]+'e'+w3[3:8]
+    print(new_w3+'정답입니다~*^^*')
+    data=data+1
+    
+else :
+    print('오답입니다ㅠㅠ')
+    tata=tata+1
+
+
+
+print('정답수 :',data,',','오답수:',tata)
+
+

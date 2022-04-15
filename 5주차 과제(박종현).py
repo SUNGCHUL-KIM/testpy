@@ -2,7 +2,9 @@
 
 sentence = 'I hope you have a good day'
 
-print(len(sentence))
+p=len(sentence.split())
+
+print(p)
 
 #문제 2
 

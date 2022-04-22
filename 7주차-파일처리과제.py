@@ -9,9 +9,12 @@ for line in f :
         fline=line2[1],',',line2[6]
         fline=str(fline)
         fw.write(fline)
+        fw.write('\n')
 
 f.close()
 fw.close()
 
+    
+    
     
     
